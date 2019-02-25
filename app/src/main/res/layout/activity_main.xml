@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@android:color/darker_gray"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -18,10 +18,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
 
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="50dp"
         app:srcCompat="@drawable/coal" />
 
     <TextView
@@ -32,11 +33,11 @@
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-
-        android:layout_marginStart="111dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="113dp"
         android:layout_marginLeft="126dp"
-        android:layout_marginRight="132dp"
-        android:layout_marginBottom="213dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="177dp"
         android:text="@string/title"
         android:textSize="36sp" />
 </RelativeLayout>
